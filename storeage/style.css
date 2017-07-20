@@ -18,14 +18,14 @@ h1 {color: darkblue;}
 	margin-top: 10px;
 	width: 1000px;
 	height: 600px;
-	border-square: 50%;
+	border-radius: 50%;
 	border: 3px solid green;
 	transition: all .5s;
 	
 }
 
 .picLayout:hover {
-	transform: scale(.5) rotate (5deg);	
+	transform: scale(.25) rotate(360deg);	
 }
 
 
