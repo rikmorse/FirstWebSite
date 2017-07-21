@@ -2,17 +2,20 @@
 	Comment
 */
 
-a { /* Comment */ color: /* Comment */ Red; }
+a {color: Red;
+	}
 
 .TestClass {
 	color: Black;
 	background-color: White;
 	text-align: left;
-}
+	}
 
-p {color: green;}
+p {color: green;
+	}
 
-h1 {color: darkblue;}
+h1 {color: darkblue;
+	}
 
 .picLayout {
 	margin-top: 10px;
@@ -21,11 +24,22 @@ h1 {color: darkblue;}
 	border-radius: 50%;
 	border: 3px solid green;
 	transition: all .5s;
-	
-}
+	}
 
 .picLayout:hover {
 	transform: scale(.25) rotate(360deg);	
-}
+	}
 
+div.links {
+	color: green;
+	}
+
+header {
+	color: Darkgreen;
+	text-align: center;
+	font-size: 14px;
+	border-style: solid;
+	border-color: green;
+	background-color: yellow;
+	}
 
