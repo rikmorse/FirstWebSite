@@ -1,18 +1,43 @@
 /*
-	Comment
+	CSS Style sheet for First Web Site
 */
+header {
+	color: Darkgreen;
+	text-align: center;
+	font-size: 14px;
+	border-style: solid;
+	border-color: green;
+	background-color: yellow;
+	}
 
-a { /* Comment */ color: /* Comment */ Red; }
-
+.index {
+	color: green;
+}
+.index2 {
+	display: inline-block;
+	padding: 10px;
+	border-style: solid;
+	border-color: green;
+	background-color: yellow;
+	}	
+.index3 {
+	color: darkgreen;
+	text-decoration: none;
+}
+.index4 {
+	color: green;
+}
+.index5 {
+	color: red;
+}
+.index6 {
+	color: green;
+}
 .TestClass {
 	color: Black;
 	background-color: White;
 	text-align: left;
-}
-
-p {color: green;}
-
-h1 {color: darkblue;}
+	}
 
 .picLayout {
 	margin-top: 10px;
@@ -21,11 +46,37 @@ h1 {color: darkblue;}
 	border-radius: 50%;
 	border: 3px solid green;
 	transition: all .5s;
-	
-}
+	}
 
 .picLayout:hover {
 	transform: scale(.25) rotate(360deg);	
-}
+	}
 
+
+
+.links {
+	color: limegreen;
+	}
+
+.about {
+	color: darkorange;
+	}
+.about2 {
+	color: orange;
+	font-size: 14px;
+	}
+
+.drinks {
+	color: mediumpurple;
+	}
+.drinks2 {
+	color: magenta;
+	}
+
+.food {
+	color: lightblue;
+	}
+.food2 {
+	color: lightgreen;
+	}
 
