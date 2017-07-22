@@ -1,10 +1,13 @@
 /*
 	CSS Style sheet for First Web Site
 */
+body {
+	background-color: darkseagreen;
+	}
 header {
 	color: Darkgreen;
 	text-align: center;
-	font-size: 14px;
+	font-size: 20px;
 	border-style: solid;
 	border-color: green;
 	background-color: yellow;
@@ -12,27 +15,49 @@ header {
 
 .index {
 	color: green;
-}
+	}
+hr {
+	display: block;
+	border-style: inset;
+	border-width: 12px;
+	}
 .index2 {
 	display: inline-block;
 	padding: 10px;
+	margin: 25px;
+	margin-left: 20px;
 	border-style: solid;
+	border-width: 5px;
 	border-color: green;
 	background-color: yellow;
 	}	
 .index3 {
 	color: darkgreen;
 	text-decoration: none;
-}
+	}
 .index4 {
 	color: green;
-}
+	}
 .index5 {
-	color: red;
-}
+	color: darkgreen;
+	text-decoration: none;
+	}
 .index6 {
 	color: green;
-}
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: green;
+	background-color: yellow;
+	}
+.index7 {
+	color: darkgreen;
+	}
+.index8 {
+	color: darkgreen;
+	}
 .TestClass {
 	color: Black;
 	background-color: White;
@@ -51,32 +76,34 @@ header {
 .picLayout:hover {
 	transform: scale(.25) rotate(360deg);	
 	}
-
-
-
 .links {
-	color: limegreen;
+	color: darkgreen;
 	}
-
+.links2 {
+	color: darkorange;
+	}
+.links3 {
+	color: darkgreen;
+}
 .about {
 	color: darkorange;
 	}
 .about2 {
-	color: orange;
+	color: darkorange;
 	font-size: 14px;
 	}
 
 .drinks {
-	color: mediumpurple;
+	color: darkgreen;
 	}
 .drinks2 {
-	color: magenta;
+	color: green;
 	}
 
 .food {
-	color: lightblue;
+	color: darkgreen;
 	}
 .food2 {
-	color: lightgreen;
+	color: green;
 	}
 
