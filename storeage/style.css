@@ -1,20 +1,41 @@
 /*
 	Comment
 */
-
-a {color: Red;
+header {
+	color: Darkgreen;
+	text-align: center;
+	font-size: 14px;
+	border-style: solid;
+	border-color: green;
+	background-color: yellow;
 	}
 
+.index {
+	color: green;
+}
+.index2 {
+	display: inline-block;
+	padding: 10px;
+	border-style: solid;
+	border-color: green;
+	background-color: yellow;
+	}	
+.index3 {
+	color: black;
+}
+.index4 {
+	color: green;
+}
+.index5 {
+	color: red;
+}
+.index6 {
+	color: green;
+}
 .TestClass {
 	color: Black;
 	background-color: White;
 	text-align: left;
-	}
-
-p {color: green;
-	}
-
-h1 {color: darkblue;
 	}
 
 .picLayout {
@@ -30,16 +51,31 @@ h1 {color: darkblue;
 	transform: scale(.25) rotate(360deg);	
 	}
 
-div.links {
-	color: green;
+
+
+.links {
+	color: limegreen;
 	}
 
-header {
-	color: Darkgreen;
-	text-align: center;
+.about {
+	color: darkorange;
+	}
+.about2 {
+	color: orange;
 	font-size: 14px;
-	border-style: solid;
-	border-color: green;
-	background-color: yellow;
+	}
+
+.drinks {
+	color: mediumpurple;
+	}
+.drinks2 {
+	color: magenta;
+	}
+
+.food {
+	color: lightblue;
+	}
+.food2 {
+	color: lightgreen;
 	}
 
