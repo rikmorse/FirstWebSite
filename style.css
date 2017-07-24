@@ -76,12 +76,12 @@ hr {
 	margin-top: 10px;
 	width: 1000px;
 	height: 600px;
-	border-radius: 50%;
 	border: 3px solid green;
 	transition: all .5s;
 	}
 .picLayout:hover {
-	transform: scale(.25) rotate(360deg);	
+
+	transform: scale(.90) rotate(2deg);	
 	}
 .links {
 	color: darkgreen;
@@ -115,4 +115,46 @@ hr {
 .food2 {
 	color: green;
 	}
+.sizes {
+	font-size: 20px;
+	color: darkgreen;
+	}
+.sizes1 {
+	color: darkgreen;
+	border-style: solid;
+	border-width: 5px;
+	border-color: darkgreen;
+	background-color: yellow;
+	}
+.sizes2 {
+	font-size: 20px;
+	}	
+.about {
+	color: darkgreen;
+	font-size: 24px;
+	font-family: sans-serif;
+	}
+.about2 {
+	color: darkgreen;
+	font-family: sans-serif;
+	font-size: 18px;
+	}	
+.price {
+	color: darkgreen;
+	font-size: 24px;
+	}
+.price1 {
+	color: darkgreen;
+	font-size: 18px;
+	}
+.price2 {
+	color: darkgreen;
+	border-style: solid;
+	border-width: 1px;
+	background-color: yellow;
+	}
+.price3 {
+	color: darkgreen;
+	font-size: 18px;
+}
 
