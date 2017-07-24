@@ -12,14 +12,13 @@ header {
 	border-color: green;
 	background-color: yellow;
 	}
-
-.index {
-	color: green;
-	}
 hr {
 	display: block;
 	border-style: inset;
 	border-width: 12px;
+	}
+.index {
+	color: green;
 	}
 .index2 {
 	display: inline-block;
@@ -51,7 +50,6 @@ hr {
 	border-width: 5px;
 	border-color: green;
 	background-color: yellow;
-
 	}
 .index7 {
 	color: darkgreen;
@@ -74,7 +72,6 @@ hr {
 	background-color: White;
 	text-align: left;
 	}
-
 .picLayout {
 	margin-top: 10px;
 	width: 1000px;
@@ -83,7 +80,6 @@ hr {
 	border: 3px solid green;
 	transition: all .5s;
 	}
-
 .picLayout:hover {
 	transform: scale(.25) rotate(360deg);	
 	}
@@ -95,7 +91,11 @@ hr {
 	}
 .links3 {
 	color: darkgreen;
-}
+	}
+.links4 {
+	color: darkgreen;
+	font-size: 20px;
+	}
 .about {
 	color: darkorange;
 	}
@@ -103,14 +103,12 @@ hr {
 	color: darkorange;
 	font-size: 14px;
 	}
-
 .drinks {
 	color: darkgreen;
 	}
 .drinks2 {
 	color: green;
 	}
-
 .food {
 	color: darkgreen;
 	}
