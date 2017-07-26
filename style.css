@@ -6,25 +6,29 @@ body {
 	margin: 0;
 	}
 header {
-	color: Darkgreen;
+	color: white;
 	text-align: center;
 	font-size: 20px;
 	border-style: solid;
 	border-color: green;
-	background-color: yellow;
+	background-color: saddlebrown;
 	width: auto;
 	margin: 5px;
 	}
+p {
+	text-indent: 20px;
+}
 hr {
 	display: block;
 	border-style: inset;
 	border-width: 12px;
 	margin: 5px;
 	}
-.index {
-	color: green;
+.textWhite {
+	color: white;
 	}
 .index2 {
+	color: white;
 	display: inline-block;
 	padding: 10px;
 	margin: 25px;
@@ -32,31 +36,14 @@ hr {
 	border-style: solid;
 	border-width: 5px;
 	border-color: green;
-	background-color: yellow;
+	background-color: saddlebrown;
 	}	
 .index3 {
-	color: darkgreen;
+	color: white;
 	text-decoration: none;
-	}
-.index4 {
-	color: green;
-	}
-.index5 {
-	color: darkgreen;
-	text-decoration: none;
-	}
-.index6 {
-	color: green;
-	display: inline-block;
-	margin: 20px;
-	padding: 10px;
-	border-style: solid;
-	border-width: 5px;
-	border-color: green;
-	background-color: yellow;
 	}
 .index7 {
-	color: darkgreen;
+	color: white;
 	font-size: 18px;
 	text-align: center;
 	text-indent: 5px;
@@ -65,112 +52,89 @@ hr {
 	border-color: green;
 	padding: 10px 10px 10px 0px;
 	margin: 35px 0px 30px 60px;
-	background-color: yellow;
+	background-color: saddlebrown;
 	width: 150px;
 	}
 .index8 {
-	color: darkgreen;
+	color: white;
 	padding: 20px;
 	margin-left: 45px;
 	font-size: 20px;
 	}
 .TestClass {
-	color: Black;
-	background-color: White;
+	color: white;
+	background-color: saddlebrown;
 	text-align: left;
 	}
 .picLayout {
 	margin-top: 10px;
-	width: 1000px;
+	margin-left: 10px;
+	width: 400px;
 	height: 600px;
-	border: 3px solid green;
+	border: 5px solid green;
 	transition: all .5s;
 	}
 .picLayout:hover {
 
 	transform: scale(.90) rotate(2deg);	
 	}
-.links {
-	color: darkgreen;
-	}
-.links2 {
-	color: darkorange;
-	}
-.links3 {
-	color: darkgreen;
-	}
 .links4 {
-	color: darkgreen;
+	color: white;
 	font-size: 20px;
 	}
-.about {
-	color: darkorange;
-	}
 .about2 {
-	color: darkorange;
+	color: white;
 	font-size: 14px;
-	}
-.drinks {
-	color: darkgreen;
-	}
-.drinks2 {
-	color: green;
-	}
-.food {
-	color: darkgreen;
-	}
-.food2 {
-	color: green;
 	}
 .sizes {
 	font-size: 20px;
-	color: darkgreen;
+	color: white;
 	}
 .sizes1 {
-	color: darkgreen;
+	color: white;
 	border-style: solid;
 	border-width: 5px;
 	border-color: darkgreen;
-	background-color: yellow;
+	background-color: saddlebrown;
 	}
 .sizes2 {
 	font-size: 20px;
 	}	
 .about {
-	color: darkgreen;
+	color: white;
 	font-size: 24px;
 	font-family: sans-serif;
 	}
 .about2 {
-	color: darkgreen;
+	color: white;
 	font-family: sans-serif;
 	font-size: 18px;
 	}	
 .price {
-	color: darkgreen;
+	color: white;
 	font-size: 24px;
 	}
 .price1 {
-	color: darkgreen;
+	color: white;
 	font-size: 18px;
 	}
 .price2 {
-	color: darkgreen;
+	color: white;
 	border-style: solid;
 	border-width: 1px;
-	background-color: yellow;
+	background-color: saddlebrown;
 	}
 .price3 {
-	color: darkgreen;
+	color: white;
 	font-size: 18px;
 }
 footer{	
-	color: Darkgreen;
+	color: white;
 	font-size: 20px;
 	text-align: center;
 	border-style: solid;
 	border-color: green;
-	background-color: yellow;
+	background-color: saddlebrown;
 	height: 140px;
 	margin: 5px;
 	width: auto;
